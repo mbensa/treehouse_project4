@@ -1,0 +1,49 @@
+/* Color variables */
+
+$boulder: #777;
+$malibu: #51ddfc;
+$viking: #58e1c1;
+$white: #fff;
+$silver: #ccc;
+$sunglo: #e4757a;
+$purple: #927bc1;
+$emerald: #63cc82;
+$coral: #fd7856;
+$lilac: #deb2ee;
+$anakiwa: #7ee6fd;
+$vista: #88d9a0;
+$fountain: #4da2bb;
+$pink: #ec9fa3;
+$tangerine: #fd9f85;
+$riptide: #80e8d1;
+
+/* Media Query variable */
+
+$brkpoint-sm: 768px;
+
+/* Status Colors */
+
+$status-colors: (
+  default: $malibu,
+  error: $sunglo,
+  info: $purple,
+  success: $emerald,
+  warning: $coral
+);
+
+/* Grid Colors */
+
+$grid-colors: (
+  col-1: $purple,
+  col-2: $coral,
+  col-3: $lilac,
+  col-4: $anakiwa,
+  col-5: $vista,
+  col-6: $fountain,
+  col-7: $pink,
+  col-8: $tangerine,
+  col-9: $sunglo,
+  col-10: $emerald,
+  col-11: $malibu,
+  col-12: riptide
+);

@@ -1,0 +1,13 @@
+@mixin color($map, $prefix: null) {
+  @each $theme, $color in $map {
+    @if $prefix != null {
+      .#{$prefix}.#{$theme} {
+        background-color: $color;
+      }
+    } @else {
+      .#{$theme} {
+        background-color: $color;
+      }
+    }
+  }
+}
