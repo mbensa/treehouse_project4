@@ -1,3 +1,5 @@
+/*Color mixin*/
+
 @mixin color($map, $prefix: null) {
   @each $theme, $color in $map {
     @if $prefix != null {
@@ -7,7 +9,23 @@
     } @else {
       .#{$theme} {
         background-color: $color;
+
+        &:hover {
+          background-color: lighten($color, 15%);
+        }
       }
     }
+  }
+}
+
+/*Media Query Mixin*/
+
+@mixin mq($break) {
+  @if $break == "small" {
+    @media (min-width: $brkpoint) {
+      @content;
+    }
+  } @else {
+    @error "No value could be retrieved.";
   }
 }

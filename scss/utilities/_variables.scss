@@ -45,5 +45,9 @@ $grid-colors: (
   col-9: $sunglo,
   col-10: $emerald,
   col-11: $malibu,
-  col-12: riptide
+  col-12: $riptide
 );
+
+/*Breakpoints*/
+
+$brkpoint: 768px;
